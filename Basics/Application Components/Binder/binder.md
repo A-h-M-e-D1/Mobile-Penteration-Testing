@@ -1,5 +1,5 @@
 ### What is Binder
-- It's the core of application communication in Android.  
+-  is a Linux kernel driver that is used to transmit the intent from one app to another.
 - Provides a secure channel between applications.  
 - Uses the RPC (Remote Procedure Call) model >>> 
 ```This means instead of sending random messages, I can call a function from a different process and use it like a local one.```
