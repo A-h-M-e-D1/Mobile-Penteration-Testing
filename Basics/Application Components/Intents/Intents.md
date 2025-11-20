@@ -31,3 +31,17 @@
    startActivity(intent);
    ````
 
+### Intent Attack Surface
+  1. Pending intents
+  
+    - It's like a token that allow another app to specific action 
+    
+    - Application A can pass a PendingIntent to application B in order to allow application B to execute predefined actions on behalf of application A 
+    
+    - Used in notification and alarms
+    
+  2. Risk: Mutable Pending Intents
+  
+    - This allow app B to modify PendingIntent and allow access to non-exported components
+
+
